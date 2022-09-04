@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>狂神个人页面</title>
+    <script src="static/jquery.min.js"></script>
+    <script src="static/lui.js"></script>
+    <link rel="stylesheet" href="static/reset.css">
+    <link rel="stylesheet" href="static/lui.css">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        body {
+            max-width: 750px;
+            margin: 0 auto;
+        }
+
+        .kuangshen {
+            width: 100%;
+            height: 100%;
+        }
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="title">狂神个人页面</h1>
+    <div class="kuangshen">
+        <section class="mb15">
+            <div class="ui_search_box">
+                <input type="search" name="" class="ui_search_ipt ui_search_icon" placeholder="搜索">
+            </div>
+        </section>
+    </div>
+    <footer class="ui_page_ft ui_top_1px">
+        <nav class="ui_tabBar">
+            <a href="https://twitter.com/kuangshenbtc" class="item active">
+                <span class="ico_wrap"><img src="static/tw.png" class="ui_tabBar_icon"></span>
+                <p>狂神推特</p>
+                <i class="ui_badge_dot"></i>
+            </a>
+            <a href="https://www.youtube.com/channel/UClUi2nr86S-gmSFtQTczstw" class="item">
+                <span class="ico_wrap"><img src="static/youtube.png" class="ui_tabBar_icon"></span>
+                <p>狂神YouTube</p>
+                <i class="ui_badge_dot"></i>
+            </a>
+            <a href="https://discord.gg/UXkr2NZmDY" class="item">
+                <span class="ico_wrap"><img src="static/discord.ico" class="ui_tabBar_icon"></span>
+                <p>狂神Discord</p>
+                <i class="ui_badge_dot"></i>
+            </a>
+        </nav>
+    </footer>
+    <script>
+        lui.watermark('.kuangshen', '狂神WEB3空投', 18);
+    </script>
+</body>
+
+</html>
